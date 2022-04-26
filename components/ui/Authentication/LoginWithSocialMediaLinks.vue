@@ -2,23 +2,21 @@
     <view-component :name="name" :code="code">
         <div class="px-3 py-6" slot="component">
             <div class="w-full max-w-sm p-6 m-auto bg-white rounded-md shadow-md dark:bg-gray-800">
-                <h1 class="text-3xl font-semibold text-center text-gray-700 dark:text-white">Brand</h1>
+                <h1 class="text-3xl font-bold text-center text-gray-700 dark:text-white">Brand</h1>
 
                 <form class="mt-6">
                     <div>
-                        <label for="username" class="block text-sm text-gray-800 dark:text-gray-200">Username</label>
-                        <input type="text"
-                            class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40">
+                        <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email Address</label>
+                        <input type="email" name="email" id="email" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                     </div>
 
-                    <div class="mt-4">
-                        <div class="flex items-center justify-between">
-                            <label for="password" class="block text-sm text-gray-800 dark:text-gray-200">Password</label>
-                            <a href="#" class="text-xs text-gray-600 dark:text-gray-400 hover:underline">Forget Password?</a>
+                    <div class="mt-6">
+                        <div class="flex justify-between mb-2">
+                            <label for="password" class="text-sm text-gray-600 dark:text-gray-200">Password</label>
+                            <a href="#" class="text-xs text-gray-400 focus:text-blue-500 hover:text-blue-500 hover:underline">Forgot password?</a>
                         </div>
 
-                        <input type="password"
-                            class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40">
+                        <input type="password" name="password" id="password" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                     </div>
 
                     <div class="mt-6">
@@ -73,23 +71,21 @@
                 name: 'Login with Social Media Links',
                 code: `
         <div class="w-full max-w-sm p-6 m-auto bg-white rounded-md shadow-md dark:bg-gray-800">
-            <h1 class="text-3xl font-semibold text-center text-gray-700 dark:text-white">Brand</h1>
+            <h1 class="text-3xl font-bold text-center text-gray-700 dark:text-white">Brand</h1>
 
             <form class="mt-6">
                 <div>
-                    <label for="username" class="block text-sm text-gray-800 dark:text-gray-200">Username</label>
-                    <input type="text"
-                        class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40">
+                    <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email Address</label>
+                    <input type="email" name="email" id="email" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                 </div>
 
-                <div class="mt-4">
-                    <div class="flex items-center justify-between">
-                        <label for="password" class="block text-sm text-gray-800 dark:text-gray-200">Password</label>
-                        <a href="#" class="text-xs text-gray-600 dark:text-gray-400 hover:underline">Forget Password?</a>
+                <div class="mt-6">
+                    <div class="flex justify-between mb-2">
+                        <label for="password" class="text-sm text-gray-600 dark:text-gray-200">Password</label>
+                        <a href="#" class="text-xs text-gray-400 focus:text-blue-500 hover:text-blue-500 hover:underline">Forgot password?</a>
                     </div>
 
-                    <input type="password"
-                        class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40">
+                    <input type="password" name="password" id="password" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                 </div>
 
                 <div class="mt-6">

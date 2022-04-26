@@ -5,7 +5,7 @@
                 <div class="hidden bg-cover lg:block lg:w-1/2" style="background-image:url('https://images.unsplash.com/photo-1606660265514-358ebbadc80d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80')"></div>
                 
                 <div class="w-full px-6 py-8 md:px-8 lg:w-1/2">
-                    <h2 class="text-2xl font-semibold text-center text-gray-700 dark:text-white">Brand</h2>
+                    <h2 class="text-3xl font-bold text-center text-gray-700 dark:text-white">Brand</h2>
 
                     <p class="text-xl text-center text-gray-600 dark:text-gray-200">Welcome back!</p>
 
@@ -30,18 +30,18 @@
                         <span class="w-1/5 border-b dark:border-gray-400 lg:w-1/4"></span>
                     </div>
 
-                    <div class="mt-4">
-                        <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200" for="LoggingEmailAddress">Email Address</label>
-                        <input id="LoggingEmailAddress" class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300" type="email">
+                    <div class="mt-6">
+                        <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email Address</label>
+                        <input type="email" name="email" id="email" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                     </div>
 
-                    <div class="mt-4">
-                        <div class="flex justify-between">
-                            <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200" for="loggingPassword">Password</label>
-                            <a href="#" class="text-xs text-gray-500 dark:text-gray-300 hover:underline">Forget Password?</a>
+                    <div class="mt-6">
+                        <div class="flex justify-between mb-2">
+                            <label for="password" class="text-sm text-gray-600 dark:text-gray-200">Password</label>
+                            <a href="#" class="text-xs text-gray-400 focus:text-blue-500 hover:text-blue-500 hover:underline">Forgot password?</a>
                         </div>
 
-                        <input id="loggingPassword" class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300" type="password">
+                        <input type="password" name="password" id="password" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                     </div>
 
                     <div class="mt-8">
@@ -73,7 +73,7 @@
             <div class="hidden bg-cover lg:block lg:w-1/2" style="background-image:url('https://images.unsplash.com/photo-1606660265514-358ebbadc80d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80')"></div>
             
             <div class="w-full px-6 py-8 md:px-8 lg:w-1/2">
-                <h2 class="text-2xl font-semibold text-center text-gray-700 dark:text-white">Brand</h2>
+                <h2 class="text-3xl font-bold text-center text-gray-700 dark:text-white">Brand</h2>
 
                 <p class="text-xl text-center text-gray-600 dark:text-gray-200">Welcome back!</p>
 
@@ -98,18 +98,18 @@
                     <span class="w-1/5 border-b dark:border-gray-400 lg:w-1/4"></span>
                 </div>
 
-                <div class="mt-4">
-                    <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200" for="LoggingEmailAddress">Email Address</label>
-                    <input id="LoggingEmailAddress" class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300" type="email">
+                <div class="mt-6">
+                    <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email Address</label>
+                    <input type="email" name="email" id="email" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                 </div>
 
-                <div class="mt-4">
-                    <div class="flex justify-between">
-                        <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200" for="loggingPassword">Password</label>
-                        <a href="#" class="text-xs text-gray-500 dark:text-gray-300 hover:underline">Forget Password?</a>
+                <div class="mt-6">
+                    <div class="flex justify-between mb-2">
+                        <label for="password" class="text-sm text-gray-600 dark:text-gray-200">Password</label>
+                        <a href="#" class="text-xs text-gray-400 focus:text-blue-500 hover:text-blue-500 hover:underline">Forgot password?</a>
                     </div>
 
-                    <input id="loggingPassword" class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300" type="password">
+                    <input type="password" name="password" id="password" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                 </div>
 
                 <div class="mt-8">
